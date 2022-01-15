@@ -1,0 +1,10 @@
+{
+    "name": "anmoli/php-mvc-core",
+    "authors": [
+        {
+            "name": "Anil Pulami Magar",
+            "email": "textanil@gmail.com"
+        }
+    ],
+    "require": {}
+}

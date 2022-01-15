@@ -6,10 +6,10 @@
  *
  * Class View
  *
- * @package app\core
+ * @package anmoli\phpmvc
  */
 
-namespace app\core;
+namespace anmoli\phpmvc;
 
 class View
 {

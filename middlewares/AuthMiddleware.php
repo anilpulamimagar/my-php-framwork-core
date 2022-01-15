@@ -6,13 +6,13 @@
  *
  * Class AuthMiddleware
  *
- * @package app\core\middlewares
+ * @package anmoli\phpmvc\middlewares
  */
 
-namespace app\core\middlewares;
+namespace anmoli\phpmvc\middlewares;
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use anmoli\phpmvc\Application;
+use anmoli\phpmvc\exception\ForbiddenException;
 
 class AuthMiddleware extends BaseMiddleware
 {

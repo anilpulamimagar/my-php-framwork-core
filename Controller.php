@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace anmoli\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use anmoli\phpmvc\middlewares\BaseMiddleware;
 
 class Controller
 {
@@ -10,7 +10,7 @@ class Controller
     public string $action ='';
 
     /**
-     * @var app\core\middlewares\BaseMiddleware[]
+     * @var anmoli\phpmvc\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
 
@@ -30,7 +30,7 @@ class Controller
     }
 
     /**
-     * @return app\core\middlewares\BaseMiddleware[]
+     * @return anmoli\phpmvc\middlewares\BaseMiddleware[]
      */
     public function getMiddlewares(): array
     {

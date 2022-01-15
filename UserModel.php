@@ -1,7 +1,7 @@
 <?php
 
-namespace app\core;
-use app\core\db\DbModel;
+namespace anmoli\phpmvc;
+use anmoli\phpmvc\db\DbModel;
 
 /**
  * @author AnilPulamiMagar
@@ -10,7 +10,7 @@ use app\core\db\DbModel;
  *
  * Class UserModel
  *
- * @package app\core
+ * @package anmoli\phpmvc
  */
 
 abstract class UserModel extends DbModel

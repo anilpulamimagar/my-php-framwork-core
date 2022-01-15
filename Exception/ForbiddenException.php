@@ -6,10 +6,10 @@
  *
  * Class ForbiddenException
  *
- * @package app\core\exception
+ * @package anmoli\phpmvc\exception
  */
 
-namespace app\core\exception;
+namespace anmoli\phpmvc\exception;
 
 class ForbiddenException extends \Exception
 {

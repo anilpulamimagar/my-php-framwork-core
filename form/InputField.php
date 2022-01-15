@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\form;
+namespace anmoli\phpmvc\form;
 
-use app\core\Model;
+use anmoli\phpmvc\Model;
 
 class InputField extends BaseField
 {

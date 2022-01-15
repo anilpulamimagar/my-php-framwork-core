@@ -6,12 +6,12 @@
  *
  * Class Database
  *
- * @package app\core
+ * @package anmoli\phpmvc
  */
 
-namespace app\core\db;
+namespace anmoli\phpmvc\db;
 
-use app\core\Application;
+use anmoli\phpmvc\Application;
 
 class Database
 {

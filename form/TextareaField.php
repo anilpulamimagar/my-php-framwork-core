@@ -6,10 +6,10 @@
  *
  * Class TextareaField
  *
- * @package app\core\form
+ * @package anmoli\phpmvc\form
  */
 
-namespace app\core\form;
+namespace anmoli\phpmvc\form;
 
 
 class TextareaField extends BaseField

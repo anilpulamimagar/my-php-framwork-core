@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core;
+namespace anmoli\phpmvc;
 
 abstract class Model
 {

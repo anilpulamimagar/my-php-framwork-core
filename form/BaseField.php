@@ -6,12 +6,12 @@
  *
  * Class BaseField
  *
- * @package app\core\form
+ * @package anmoli\phpmvc\form
  */
 
-namespace app\core\form;
+namespace anmoli\phpmvc\form;
 
-use app\core\Model;
+use anmoli\phpmvc\Model;
 
 abstract class BaseField
 {

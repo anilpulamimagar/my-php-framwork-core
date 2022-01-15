@@ -6,13 +6,13 @@
  *
  * Class DbModel
  *
- * @package app\core
+ * @package anmoli\phpmvc
  */
 
-namespace app\core\db;
+namespace anmoli\phpmvc\db;
 
-use app\core\Application;
-use app\core\Model;
+use anmoli\phpmvc\Application;
+use anmoli\phpmvc\Model;
 
 
 abstract class DbModel extends Model

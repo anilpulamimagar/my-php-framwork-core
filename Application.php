@@ -3,12 +3,12 @@
 /**
  * class Application
  * @author Anil Pulami Magar
- * @package app\core
+ * @package anmoli\phpmvc
  */
 
-namespace app\core;
+namespace anmoli\phpmvc;
 
-use app\core\db\Database;
+use anmoli\phpmvc\db\Database;
 
 class Application
 {
@@ -28,6 +28,9 @@ class Application
 
     public function __construct($rootPath, array $config)
     {
+        echo "<pre>";
+        var_dump(array($rootPath,$config));
+        echo "</pre>";
         $this->userClass = $config['userClass'];
         self::$ROOT_DIR = $rootPath;
         self::$app = $this;
@@ -98,7 +101,7 @@ class Application
         $this->controller = $controller;
     }
 
-    public function login(\app\core\UserModel $user)
+    public function login(\anmoli\phpmvc\UserModel $user)
     {
         $this->user = $user;
         $primaryKey = $user->primaryKey();

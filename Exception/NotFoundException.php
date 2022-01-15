@@ -6,10 +6,10 @@
  *
  * Class NotFoundException
  *
- * @package app\core\exception
+ * @package anmoli\phpmvc\exception
  */
 
-namespace app\core\exception;
+namespace anmoli\phpmvc\exception;
 
 class NotFoundException extends \Exception
 {

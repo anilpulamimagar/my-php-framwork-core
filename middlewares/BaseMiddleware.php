@@ -6,10 +6,10 @@
  *
  * Class BaseMiddleware
  *
- * @package app\core\middlewares
+ * @package anmoli\phpmvc\middlewares
  */
 
-namespace app\core\middlewares;
+namespace anmoli\phpmvc\middlewares;
 
 abstract class BaseMiddleware
 {

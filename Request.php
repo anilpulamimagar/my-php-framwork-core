@@ -1,11 +1,11 @@
 <?php
 
-namespace app\core;
+namespace anmoli\phpmvc;
 
 /**
  * class Request
  * @author Anil Pulami Magar
- * @package app\core
+ * @package anmoli\phpmvc
  */
 class Request
 {

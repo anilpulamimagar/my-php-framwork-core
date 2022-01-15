@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core;
+namespace anmoli\phpmvc;
 
-use app\core\exception\NotFoundException;
+use anmoli\phpmvc\exception\NotFoundException;
 
 /**
  * class Router
  * @author Anil Pulami Magar
- * @package app\core
+ * @package anmoli\phpmvc
  */
 class Router
 {
@@ -52,7 +52,7 @@ class Router
         }
 
         if(is_array($callback)){
-            /** @var  \app\core\Controller $controller */
+            /** @var  \anmoli\phpmvc\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

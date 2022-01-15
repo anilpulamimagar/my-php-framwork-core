@@ -6,10 +6,10 @@
  *
  * Class Session
  *
- * @package app\core
+ * @package anmoli\phpmvc
  */
 
-namespace app\core;
+namespace anmoli\phpmvc;
 
 class Session
 {
